@@ -1,0 +1,241 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #f4c862;
+  color: #333;
+}
+
+.bloque-titulo {
+  background-color: #FEEFB9;
+  width: 100%;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.bloque-titulo header {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.bloque-titulo h1 {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.bloque-titulo .descripcion {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #444;
+}
+
+/*Logo*/
+.logo {
+  width: 70px;
+  height: auto;
+  display: inline-block;
+  object-fit: contain;
+}
+
+/*Contenedor principal */
+.inicio-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.tarjetas-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/*Tarjeta general*/
+.tarjeta {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 280px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tarjeta h2 {
+  margin: 0.8rem 0 0.4rem;
+  color: #2e7d32;
+  font-size: 1.2rem;
+}
+
+.tarjeta p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/*Tarjeta Huerto*/
+.tarjeta-huerto img.img-huerto {
+  height: 320px;
+}
+
+/*Carrusel*/
+.tarjeta-carrusel {
+  position: relative;
+  overflow: hidden;
+  width: 280px;
+  padding: 0 !important;         
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  
+}
+
+.carrusel-interno {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.slide {
+  min-width: 100%;
+  overflow: hidden;              
+  position: relative;
+  background: white;  
+}
+
+/* Imagen del slide */
+.slide img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;             
+}
+
+/* Contenedor del texto del slide */
+.contenido-slide {
+  padding: 0.8rem 1rem 1rem;
+  text-align: center;  
+}
+
+.slide h2 {
+  margin: 0.5rem 0 0.3rem;
+  color: #2e7d32;
+  font-size: 1.2rem;  
+}
+
+.slide p {
+  font-size: 0.95rem;
+  color: #555;  
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+  text-align: center;
+  padding: 1rem;
+  min-height: 260px; 
+}
+
+.slide img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+
+/*Botones del carrusel*/
+.tarjeta-carrusel .prev,
+.tarjeta-carrusel .next {
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+  background: #ffffffcc;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.tarjeta-carrusel .prev { left: 5px; }
+.tarjeta-carrusel .next { right: 5px; }
+
+.tarjeta-carrusel .prev:hover,
+.tarjeta-carrusel .next:hover {
+  background: #ffffffee;
+}
+
+/*Contenido adicional*/
+.contenido {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.paso {
+  margin-bottom: 2rem;
+}
+
+.paso h2 {
+  color: #4caf50;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #2e7d32;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.animal {
+  margin-bottom: 2rem;
+}
+
+.animal h2 {
+  color: #3f51b5;
+  margin-bottom: 0.5rem;
+}
+
+/*Estilo del pie de página*/
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f2f2f2;
+  color: #333;
+  margin-top: 2em;
+  font-size: 0.9rem;
+}
+
