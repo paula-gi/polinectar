@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Huerto Polinizador</title>
+  <link rel="stylesheet" href="style-huerto.css" />
+</head>
+<body>
+  
+  <header>
+    <h1>PoliNectar</h1>
+    <p>Crea tu Huerto Polinizador.</p>
+  </header>
+
+  <section class="filtros">
+    <div>
+      <label for="region">Selecciona tu Región Bioclimática:</label>
+      <select id="region">
+        <option value="todas">Todas</option>
+        <option value="mediterranea">Mediterránea</option>
+        <option value="atlántica">Atlántica</option>
+        <option value="continental">Continental</option>
+        <option value="montañosa">Montañosa</option>
+      </select>
+    </div>
+  </section>
+
+  <div class="main-container">
+    <div class="zona-estaciones">
+      <section class="estaciones">
+        <!-- Estación Primavera -->
+        <div class="estacion" data-estacion="primavera">
+          <h3>Primavera</h3>
+          <button class="prev-btn" aria-label="Anterior">&#10094;</button>
+          <div class="carrusel">
+            <div class="slides-container"></div>
+          </div>
+          <button class="next-btn" aria-label="Siguiente">&#10095;</button>
+
+          <div class="filtros-estacion">
+            <button class="btn-filtro altas" data-categoria="flores-altas" data-tooltip="Altas"></button>
+            <button class="btn-filtro medianas" data-categoria="flores-medianas" data-tooltip="Medianas"></button>
+            <button class="btn-filtro bajas" data-categoria="flores-bajas" data-tooltip="Bajas"></button>
+            <button class="btn-filtro frutales" data-categoria="arboles-frutales" data-tooltip="Frutales"></button>
+            <button class="btn-filtro todas" data-categoria="todas" data-tooltip="Todas"></button>
+          </div>
+
+          <p class="info-texto">Descubre las mejores flores de primavera para atraer polinizadores.</p>
+        </div>
+
+        <!-- Estación Verano -->
+        <div class="estacion" data-estacion="verano">
+          <h3>Verano</h3>
+          <button class="prev-btn" aria-label="Anterior">&#10094;</button>
+          <div class="carrusel">
+            <div class="slides-container"></div>
+          </div>
+          <button class="next-btn" aria-label="Siguiente">&#10095;</button>
+
+          <div class="filtros-estacion">
+            <button class="btn-filtro altas" data-categoria="flores-altas" data-tooltip="Altas"></button>
+            <button class="btn-filtro medianas" data-categoria="flores-medianas" data-tooltip="Medianas"></button>
+            <button class="btn-filtro bajas" data-categoria="flores-bajas" data-tooltip="Bajas"></button>
+            <button class="btn-filtro frutales" data-categoria="arboles-frutales" data-tooltip="Frutales"></button>
+            <button class="btn-filtro todas" data-categoria="todas" data-tooltip="Todas"></button>
+          </div>
+
+          <p class="info-texto">En verano, mantén el huerto vibrante con estas especies.</p>
+        </div>
+
+        <!-- Estación Otoño -->
+        <div class="estacion" data-estacion="otoño">
+          <h3>Otoño</h3>
+          <button class="prev-btn" aria-label="Anterior">&#10094;</button>
+          <div class="carrusel">
+            <div class="slides-container"></div>
+          </div>
+          <button class="next-btn" aria-label="Siguiente">&#10095;</button>
+
+          
+          <div class="filtros-estacion">
+            <button class="btn-filtro altas" data-categoria="flores-altas" data-tooltip="Altas"></button>
+            <button class="btn-filtro medianas" data-categoria="flores-medianas" data-tooltip="Medianas"></button>
+            <button class="btn-filtro bajas" data-categoria="flores-bajas" data-tooltip="Bajas"></button>
+            <button class="btn-filtro frutales" data-categoria="arboles-frutales" data-tooltip="Frutales"></button>
+            <button class="btn-filtro todas" data-categoria="todas" data-tooltip="Todas"></button>
+          </div>
+
+          <p class="info-texto">Otoño es época de transición: plantas resistentes y floraciones tardías.</p>
+        </div>
+
+        <!-- Estación Invierno -->
+        <div class="estacion" data-estacion="invierno">
+          <h3>Invierno</h3>
+          <button class="prev-btn" aria-label="Anterior">&#10094;</button>
+          <div class="carrusel">
+            <div class="slides-container"></div>
+          </div>
+          <button class="next-btn" aria-label="Siguiente">&#10095;</button>
+
+          
+          <div class="filtros-estacion">
+            <button class="btn-filtro altas" data-categoria="flores-altas" data-tooltip="Altas"></button>
+            <button class="btn-filtro medianas" data-categoria="flores-medianas" data-tooltip="Medianas"></button>
+            <button class="btn-filtro bajas" data-categoria="flores-bajas" data-tooltip="Bajas"></button>
+            <button class="btn-filtro frutales" data-categoria="arboles-frutales" data-tooltip="Frutales"></button>
+            <button class="btn-filtro todas" data-categoria="todas" data-tooltip="Todas"></button>
+          </div>
+
+          <p class="info-texto">Incluso en invierno, hay plantas que brindan color y alimento a polinizadores.</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="zona-huerto">
+      <section id="huerto" aria-label="Área de construcción del huerto polinizador">
+        <h2>Mi Huerto Polinizador</h2>
+
+        <div class="huerto-area">
+          <div class="plano-huerto">
+
+            <!-- Flores altas -->
+            <div class="zona flores-altas" aria-label="Flores altas (girasoles, hollyhocks, equinácea)">
+              <h4>Flores Altas</h4>
+              <div class="slots">
+                <div class="slot flores-altas"></div>
+                <div class="slot flores-altas"></div>
+                <div class="slot flores-altas"></div>
+                <div class="slot flores-altas"></div>
+                <div class="slot flores-altas"></div>
+                <div class="slot flores-altas"></div>
+                <div class="slot flores-altas"></div>
+                <div class="slot flores-altas"></div>
+                <div class="slot flores-altas"></div>
+                <div class="slot flores-altas"></div>
+              </div>
+            </div>
+
+            <!-- Flores medianas -->
+            <div class="zona flores-medianas" aria-label="Flores medianas (caléndulas, lavanda, zinnias)">
+              <h4>Flores Medianas</h4>
+              <div class="slots">
+                <div class="slot flores-medianas"></div>
+                <div class="slot flores-medianas"></div>
+                <div class="slot flores-medianas"></div>
+                <div class="slot flores-medianas"></div>
+                <div class="slot flores-medianas"></div>
+                <div class="slot flores-medianas"></div>
+                <div class="slot flores-medianas"></div>
+                <div class="slot flores-medianas"></div>
+                <div class="slot flores-medianas"></div>
+                <div class="slot flores-medianas"></div>
+              </div>
+            </div>
+
+            <!-- Hotel insectos + flores bajas -->
+            <div class="zona flores-bajas hotel-insectos" aria-label="Hotel de insectos, piedras y flores bajas (menta, tomillo, alyssum)">
+              <h4>Flores Bajas + Hotel de Insectos</h4>
+              <div class="slots">
+                <div class="slot flores-bajas"></div>
+                <div class="slot flores-bajas"></div>
+                <div class="slot flores-bajas"></div>
+                <div class="slot flores-bajas"></div>
+                <div class="slot flores-bajas"></div>
+                <div class="slot flores-bajas"></div>
+                <div class="slot flores-bajas"></div>
+                <div class="slot flores-bajas"></div>
+                <div class="slot flores-bajas"></div>
+                <div class="slot flores-bajas"></div>
+              </div>
+            </div>
+
+            <!-- Árboles frutales -->
+            <div class="zona arboles-frutales" aria-label="Árboles frutales al sur">
+              <h4>Árboles Frutales</h4>
+              <div class="slots">
+                <div class="slot arboles-frutales"></div>
+                <div class="slot arboles-frutales"></div>
+                <div class="slot arboles-frutales"></div>
+                <div class="slot arboles-frutales"></div>
+                <div class="slot arboles-frutales"></div>
+                <div class="slot arboles-frutales"></div>
+                <div class="slot arboles-frutales"></div>
+                <div class="slot arboles-frutales"></div>
+                <div class="slot arboles-frutales"></div>
+                <div class="slot arboles-frutales"></div>
+              </div>
+              <p class="huerto-vacio">Tu huerto está vacío. ¡Haz clic en una planta para empezar!</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <p><a href="index.html">← Volver al inicio</a></p>  
+  
+  <footer>
+    <p>© 2025 Tu Huerto Polinizador</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
