@@ -1,0 +1,83 @@
+/* Reset y ajustes básicos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7fff0;
+  color: #333;
+  line-height: 1.5;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 2rem;
+  text-align: center;
+  background: #FEEFB9;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f2f2f2;
+  color: #333;
+  margin-top: 2em;
+}
+
+/* Filtros */
+.filtros {
+  margin: 1rem;
+  text-align: center;
+}
+
+.filtros label,
+.filtros select {
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.filtros select {
+  border-radius: 6px;
+  border: 1.5px solid #4caf50;
+  cursor: pointer;
+}
+
+/* Contenedor principal */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 1rem;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+/* Zonas principales */
+.zona-estaciones,
+.zona-huerto {
+  flex: 1 1 480px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
