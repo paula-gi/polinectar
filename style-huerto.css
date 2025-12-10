@@ -81,3 +81,190 @@ footer {
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
+
+/* Estaciones */
+.estaciones {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(80px, auto);
+  gap: 0.8rem;
+  width: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.estacion {
+  position: relative;
+  background: #fff;
+  padding: 0.8rem 0.6rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.estacion h3 {
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+/* Info texto */
+.info-texto {
+  margin-top: 0.6rem;
+  font-style: italic;
+  color: #555;
+  text-align: center;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+/* Carrusel */
+.carrusel {
+  overflow: hidden;
+  width: 100%;
+  height: 160px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  position: relative;
+  margin-bottom: 0.6rem;
+}
+
+.slides-container {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+  will-change: transform;
+  height: 100%;
+}
+
+.planta-slide {
+  flex: 0 0 100%;
+  text-align: center;
+  cursor: grab;
+  padding: 0.2rem;
+  user-select: none;
+}
+
+.planta-slide img {
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.planta-slide p {
+  margin-top: 0.2rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #333;
+  user-select: none;
+}
+
+/* Botones carrusel */
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  border-radius: 50%;
+  user-select: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 10;
+  transition: background-color 0.3s;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #45a049;
+}
+
+.prev-btn {
+  left: -22px;
+}
+
+.next-btn {
+  right: -22px;
+}
+
+/* Filtros debajo carrusel */
+.filtros-estacion {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.btn-filtro {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-size: 0;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.btn-filtro:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  pointer-events: none;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1000;
+}
+
+.btn-filtro::after {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+/* Colores según categoría */
+.btn-filtro.altas {
+  background-color: #ffd54f;
+}
+
+.btn-filtro.bajas {
+  background-color: #aed581;
+}
+
+.btn-filtro.medianas {
+  background-color: #ffcc80;
+}
+
+.btn-filtro.frutales {
+  background-color: #81c784;
+}
+
+.btn-filtro.todas {
+  background-color: #9e9e9e;
+}
+
+.btn-filtro:hover {
+  filter: brightness(0.85);
+}
