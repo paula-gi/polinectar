@@ -1,0 +1,528 @@
+[
+  {
+    "nombre": "Lavanda",
+    "estacion": "verano",
+    "region": ["mediterranea", "atlántica", "montañosa", "continental"],
+    "imagen": "img/lavanda.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Caléndula",
+    "estacion": "otoño",
+    "region": ["mediterranea", "atlántica"],
+    "imagen": "img/calendula.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Caléndula",
+    "estacion": "verano",
+    "region": ["mediterranea"],
+    "imagen": "img/calendula.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Caléndula",
+    "estacion": "invierno",
+    "region": ["mediterranea"],
+    "imagen": "img/calendula.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Siempreviva - Helichrysum italicum",
+    "estacion": "verano",
+    "region": ["mediterranea"],
+    "imagen": "img/siempreviva.jpg",
+    "categoria": "flores-medianas"
+
+  },
+  {
+    "nombre": "Aster",
+    "estacion": "otoño",
+    "region": ["mediterranea", "atlántica", "montañosa"],
+    "imagen": "img/aster.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Romero",
+    "estacion": "invierno",
+    "region": ["mediterranea"],
+    "imagen": "img/romero.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Romero",
+    "estacion": "primavera",
+    "region": ["mediterranea"],
+    "imagen": "img/romero.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Laurel de monte - Viburnum tinus",
+    "estacion": "invierno",
+    "region": ["mediterranea"],
+    "imagen": "img/viburnum.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Dedalera",
+    "estacion": "primavera",
+    "region": ["montañosa"],
+    "imagen": "img/digitalis.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Dedalera",
+    "estacion": "verano",
+    "region": ["continental", "montañosa", "mediterranea"],
+    "imagen": "img/digitalis.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Brezo de invierno - Erica carnea",
+    "estacion": "invierno",
+    "region": ["atlántica", "continental"],
+    "imagen": "img/brezo.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Diente de león",
+    "estacion": "verano",
+    "region": ["atlántica"],
+    "imagen": "img/dienteleon.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Diente de león",
+    "estacion": "primavera",
+    "region": ["atlántica", "continental", "mediterranea"],
+    "imagen": "img/dienteleon.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Almendro",
+    "estacion": "primavera",
+    "region": ["mediterranea"],
+    "imagen": "img/almendro.jpg",
+    "categoria": "arboles-frutales"
+  },
+  {
+    "nombre": "Amapola",
+    "estacion": "primavera",
+    "region": ["mediterranea"],
+    "imagen": "img/amapola.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Jara pringosa - Cistus ladanifer",
+    "estacion": "primavera",
+    "region": ["mediterranea"],
+    "imagen": "img/jara.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Diente de león",
+    "estacion": "invierno",
+    "region": ["montañosa"],
+    "imagen": "img/dienteleon.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Azafrán de primavera - Crocus vernus",
+    "estacion": "invierno",
+    "region": ["montañosa"],
+    "imagen": "img/azafran.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Ortiga - Urtica dioica",
+    "estacion": "verano",
+    "region": ["atlántica"],
+    "imagen": "img/ortigadioica.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Cardo",
+    "estacion": "verano",
+    "region": ["atlántica", "montañosa"],
+    "imagen": "img/cardo.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Genciana",
+    "estacion": "verano",
+    "region": ["montañosa"],
+    "imagen": "img/genciana.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Hipérico",
+    "estacion": "verano",
+    "region": ["montañosa"],
+    "imagen": "img/hiperico.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Malva común",
+    "estacion": "verano",
+    "region": ["atlántica"],
+    "imagen": "img/malva.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Malva común",
+    "estacion": "primavera",
+    "region": ["atlántica", "continental","montañosa", "mediterranea"],
+    "imagen": "img/malva.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Trébol blanco - Trifolium repens",
+    "estacion": "primavera",
+    "region": ["atlántica"],
+    "imagen": "img/trebolblanco.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Aguileña común - Aquilegia vulgaris",
+    "estacion": "primavera",
+    "region": ["atlántica", "continental"],
+    "imagen": "img/aquilegia.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Ortiga muerta púrpura - Lamium purpureum",
+    "estacion": "primavera",
+    "region": ["atlántica"],
+    "imagen": "img/ortiga.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Salvia verbenaca - Salvia verbenaca",
+    "estacion": "primavera",
+    "region": ["atlántica"],
+    "imagen": "img/salviaverbenaca.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Violeta olorosa - Viola odorata",
+    "estacion": "primavera",
+    "region": ["atlántica"],
+    "imagen": "img/violeta.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Violeta olorosa - Viola odorata",
+    "estacion": "invierno",
+    "region": ["atlántica", "montañosa"],
+    "imagen": "img/violeta.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Ciclamen - Cyclamen coum",
+    "estacion": "invierno",
+    "region": ["atlántica", "mediterranea"],
+    "imagen": "img/cyclamen.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Campanilla de invierno - Galanthus nivalis",
+    "estacion": "invierno",
+    "region": ["atlántica"],
+    "imagen": "img/galantus.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Girasol - Helianthus annuus",
+    "estacion": "verano",
+    "region": ["atlántica", "continental"],
+    "imagen": "img/girasol.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Borraja - Borago officinalis",
+    "estacion": "verano",
+    "region": ["atlántica", "montañosa", "continental", "mediterranea"],
+    "imagen": "img/borraja.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Trébol rojo - Trifolium pratense",
+    "estacion": "verano",
+    "region": ["atlántica"],
+    "imagen": "img/trebol.jpg",
+    "categoria": "flores-bajas"
+  },
+
+  {
+    "nombre": "Trébol rojo - Trifolium pratense",
+    "estacion": "primavera",
+    "region": ["continental"],
+    "imagen": "img/trebol.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Ciruelo",
+    "estacion": "primavera",
+    "region": ["continental", "atlantica"],
+    "imagen": "img/ciruelo.jpg",
+    "categoria": "arboles-frutales"
+  },
+  {
+    "nombre": "Manzano",
+    "estacion": "primavera",
+    "region": ["continental", "atlantica"],
+    "imagen": "img/manzanodomestico.jpg",
+    "categoria": "arboles-frutales"
+  },
+  {
+    "nombre": "Ajo - Allium cepa",
+    "estacion": "primavera",
+    "region": ["continental"],
+    "imagen": "img/ajo.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Ortiga muerta blanca - Lamium album",
+    "estacion": "primavera",
+    "region": ["continental"],
+    "imagen": "img/ortigablanca.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Verbena común - Verbena officinalis",
+    "estacion": "verano",
+    "region": ["atlántica", "continental"],
+    "imagen": "img/verbena.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Peral",
+    "estacion": "primavera",
+    "region": ["atlantica"],
+    "imagen": "img/peral.jpg",
+    "categoria": "arboles-frutales"
+  },
+  {
+    "nombre": "Níspero japonés",
+    "estacion": "invierno",
+    "region": ["atlantica"],
+    "imagen": "img/nispero.jpg",
+    "categoria": "arboles-frutales"
+  },
+  
+  {
+    "nombre": "Campanilla - Campanula spp.",
+    "estacion": "verano",
+    "region": ["atlántica"],
+    "imagen": "img/campanilla.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Tojo - Ulex europaeus",
+    "estacion": "invierno",
+    "region": ["atlántica", "montañosa"],
+    "imagen": "img/tojo.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Sauce - Salix spp.",
+    "estacion": "invierno",
+    "region": ["montañosa"],
+    "imagen": "img/sauce.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Pulmonaria - Pulmonaria officinalis",
+    "estacion": "primavera",
+    "region": ["montañosa"],
+    "imagen": "img/pulmonaria.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Ranúnculo - Ranunculus spp.",
+    "estacion": "primavera",
+    "region": ["montañosa"],
+    "imagen": "img/ranunculo.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Aubrieta - Aubrieta deltoidea",
+    "estacion": "primavera",
+    "region": ["montañosa"],
+    "imagen": "img/aubrieta.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Cerezo silvestre- Prunus avium",
+    "estacion": "primavera",
+    "region": ["atlántica"],
+    "imagen": "img/cerezo.jpg",
+    "categoria": "arboles-frutales"
+  },
+  {
+    "nombre": "Manzano silvestre - Malus sylvestris",
+    "estacion": "primavera",
+    "region": ["atlántica"],
+    "imagen": "img/manzano.jpg",
+    "categoria": "arboles-frutales"
+  },
+  {
+    "nombre": "Margarita común - Bellis perennis",
+    "estacion": "primavera",
+    "region": ["atlántica", "continental"],
+    "imagen": "img/margarita.jpg",
+    "categoria": "flores-bajas"
+  },  
+  {
+    "nombre": "Tomillo - Thymus serpyllum",
+    "estacion": "verano",
+    "region": ["continental", "mediterranea"],
+    "imagen": "img/tomillo.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Tomillo - Thymus serpyllum",
+    "estacion": "primavera",
+    "region": ["montañosa", "primavera"],
+    "imagen": "img/tomillo.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Endrino - Prunus spinosa",
+    "estacion": "primavera",
+    "region": ["montañosa"],
+    "imagen": "img/endrino.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Endrino - Prunus spinosa",
+    "estacion": "invierno",
+    "region": ["mediterranea"],
+    "imagen": "img/endrino.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Arándano - Vaccinium myrtillus",
+    "estacion": "primavera",
+    "region": ["montañosa"],
+    "imagen": "img/arandano.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Cebollino - Allium schoenoprasum",
+    "estacion": "primavera",
+    "region": ["montañosa"],
+    "imagen": "img/cebollino.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Milenrama - Achillea millefolium",
+    "estacion": "verano",
+    "region": ["continental", "montañosa"],
+    "imagen": "img/milenrama.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Hiedra - Hedera helix",
+    "estacion": "invierno",
+    "region": ["atlántica", "continental"],
+    "imagen": "img/hiedra.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Hiedra - Hedera helix",
+    "estacion": "otoño",
+    "region": ["atlántica", "montañosa", "continental", "mediterranea"],
+    "imagen": "img/hiedra.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Vara de oro - Solidago virgaurea",
+    "estacion": "otoño",
+    "region": ["montañosa", "atlántica", "continental"],
+    "imagen": "img/solidago.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Caléndula",
+    "estacion": "otoño",
+    "region": ["montañosa", "mediterranea", "continental"],
+    "imagen": "img/calendula.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Sedum de otoño",
+    "estacion": "otoño",
+    "region": ["montañosa"],
+    "imagen": "img/sedum.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Equinacea",
+    "estacion": "verano",
+    "region": ["montañosa"],
+    "imagen": "img/equinacea.jpg",
+    "categoria": "flores-altas"
+  },
+  {
+    "nombre": "Aciano de montaña",
+    "estacion": "verano",
+    "region": ["montañosa"],
+    "imagen": "img/aciano.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Aciano - Centaurea cyanus",
+    "estacion": "verano",
+    "region": ["mediterranea"],
+    "imagen": "img/aciano.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Orégano",
+    "estacion": "verano",
+    "region": ["montañosa", "mediterranea","continental"],
+    "imagen": "img/oregano.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Salvia común - Salvia officinalis",
+    "estacion": "primavera",
+    "region": ["montañosa", "continental", "mediterranea"],
+    "imagen": "img/salvia.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Salvia común - Salvia officinalis",
+    "estacion": "verano",
+    "region": ["mediterranea"],
+    "imagen": "img/salvia.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Salvia común - Salvia officinalis",
+    "estacion": "invierno",
+    "region": ["mediterranea"],
+    "imagen": "img/salvia.jpg",
+    "categoria": "flores-bajas"
+  },
+  {
+    "nombre": "Jara blanca - Cistus albidus",
+    "estacion": "invierno",
+    "region": ["mediterranea"],
+    "imagen": "img/jarablanca.jpg",
+    "categoria": "flores-medianas"
+  },
+  {
+    "nombre": "Santolina - Santolina chamaecyparissus",
+    "estacion": "verano",
+    "region": ["mediterranea"],
+    "imagen": "img/santolina.jpg",
+    "categoria": "flores-bajas"
+  }
+  
+]
+
+
+
+
