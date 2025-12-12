@@ -416,3 +416,109 @@ footer {
   background-color: #c5e1a5 !important;
   transition: background-color 0.3s, outline 0.3s;
 }
+
+
+/* Diseño responsive para móviles */
+@media (max-width: 480px) {
+
+body {
+  font-size: 14px;
+}
+
+.main-container {
+  flex-direction: column;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.zona-estaciones,
+.zona-huerto {
+  flex: 1 1 100%;
+  padding: 0.5rem;
+  max-width: 100%;
+}
+
+.estaciones {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+}
+
+.estacion {
+  padding: 0.4rem 0.3rem;
+}
+
+.estacion h3 {
+  font-size: 0.9rem;
+}
+
+.info-texto {
+  font-size: 0.7rem;
+}
+
+.carrusel {
+  height: 110px;
+}
+
+.planta-slide img {
+  max-height: 75px;
+}
+
+.planta-slide p {
+  font-size: 0.65rem;
+}
+
+.prev-btn,
+.next-btn {
+  font-size: 1rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.plano-huerto {
+  max-width: 320px;
+  font-size: 0.85rem;
+}
+
+.slot {
+  width: 40px;
+  height: 40px;
+}
+
+.slot img {
+  max-height: 28px;
+}
+
+.slot span {
+  font-size: 0.6rem;
+}
+
+.planta-item {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+/* Filtros */
+.filtros label,
+.filtros select {
+  font-size: 0.85rem;
+}
+
+.filtros select {
+  padding: 0.2rem 0.4rem;
+}
+
+footer {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+}
+
+  .btn-filtro {
+  width: 28px;   
+  height: 28px;  
+}
+
+.filtros-estacion {
+  gap: 0.3rem;   
+}
+}
+
+
