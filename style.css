@@ -239,3 +239,100 @@ footer {
   font-size: 0.9rem;
 }
 
+/* ============================================================
+   📱 MOBILE (pantallas hasta 480px)
+   ============================================================ */
+@media (max-width: 480px) {
+
+  /* Ajustes generales */
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background: #f4c862;
+  }
+
+  /* Bloque título */
+  .bloque-titulo {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .bloque-titulo h1 {
+    font-size: 1.6rem;
+  }
+
+  .bloque-titulo .descripcion {
+    font-size: 0.9rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Logo */
+  .logo {
+    width: 60px;
+  }
+
+  /* Contenedor de inicio */
+  .inicio-container {
+    padding: 1.2rem;
+    width: 100%;
+  }
+
+  /* TARJETAS: apiladas verticalmente */
+  .tarjetas-menu {
+    display: block;  /* de flex a block para que apilen verticalmente */
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .tarjeta,
+  .tarjeta-carrusel {
+    display: block;
+    width: 95%;       /* casi todo el ancho */
+    max-width: 330px;
+    margin: 0.5rem auto; /* centrado horizontal */
+  }
+
+  /* Imágenes más pequeñas para móviles */
+  .tarjeta img,
+  .slide img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .tarjeta-huerto img.img-huerto {
+    height: 200px;
+  }
+
+  /* Texto de tarjetas */
+  .tarjeta h2,
+  .slide h2 {
+    font-size: 1.1rem;
+  }
+
+  /* Carrusel: botones más pequeños */
+  .tarjeta-carrusel .prev,
+  .tarjeta-carrusel .next {
+    top: 15%;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  /* Footer siempre abajo */
+  footer {
+    font-size: 0.8rem;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    clear: both;
+  }
+}
+
+
+
+
+
+
