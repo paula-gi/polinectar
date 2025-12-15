@@ -239,9 +239,8 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ============================================================
-   📱 MOBILE (pantallas hasta 480px)
-   ============================================================ */
+
+/* Diseño responsive para móviles */
 @media (max-width: 480px) {
 
   /* Ajustes generales */
@@ -281,7 +280,7 @@ footer {
 
   /* TARJETAS: apiladas verticalmente */
   .tarjetas-menu {
-    display: block;  /* de flex a block para que apilen verticalmente */
+    display: block;  
     width: 100%;
     padding: 0;
     margin: 0 auto;
@@ -290,12 +289,11 @@ footer {
   .tarjeta,
   .tarjeta-carrusel {
     display: block;
-    width: 95%;       /* casi todo el ancho */
+    width: 95%;       
     max-width: 330px;
-    margin: 0.5rem auto; /* centrado horizontal */
+    margin: 0.5rem auto; 
   }
-
-  /* Imágenes más pequeñas para móviles */
+  
   .tarjeta img,
   .slide img {
     width: 100%;
@@ -321,7 +319,7 @@ footer {
     padding: 0.3rem 0.6rem;
   }
 
-  /* Footer siempre abajo */
+  /* Footer */
   footer {
     font-size: 0.8rem;
     padding: 1rem;
