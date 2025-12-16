@@ -22,3 +22,15 @@ El objetivo del proyecto es fomentar la biodiversidad, el aprendizaje ambiental 
 - **HTML5** – estructura del proyecto  
 - **CSS3** – diseño y responsive  
 - **JavaScript (Vanilla)** – lógica e interacción  
+
+
+## Cómo ver y descargar el proyecto
+
+### Ver online
+Puedes acceder al proyecto en línea mediante este enlace:  
+[Tu Huerto Polinizador]([https://paula-gi.github.io/polinectar/)
+
+### Descargar y usar localmente
+1. Clona el repositorio o descarga el ZIP desde GitHub.
+2. Abre la carpeta en **Visual Studio Code**.
+3. Usa la extensión **Live Server** y abre `index.html` con ella para que funcionen todas las imágenes y el JSON.
