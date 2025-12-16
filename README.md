@@ -27,8 +27,7 @@ El objetivo del proyecto es fomentar la biodiversidad, el aprendizaje ambiental 
 ## Cómo ver y descargar el proyecto
 
 ### Ver online
-Puedes acceder al proyecto en línea mediante este enlace:  
-[Tu Huerto Polinizador]([https://paula-gi.github.io/polinectar/)
+Puedes acceder al proyecto en línea mediante este enlace: https://paula-gi.github.io/polinectar/
 
 ### Descargar y usar localmente
 1. Clona el repositorio o descarga el ZIP desde GitHub.
